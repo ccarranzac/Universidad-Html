@@ -1,0 +1,21 @@
+body{
+    background-color: #3d405b
+    }
+h1{
+    color: #f4f1de;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: #e07a5f;
+    background-color: #f2cc8f;
+    padding: 15px;
+    border: 10px solid #81b29a;
+    /*margin: 20px;*/
+    margin: auto 50px;
+    text-align: center;
+}
+
+a{
+    color: wheat;
+}
