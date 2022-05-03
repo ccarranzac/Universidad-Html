@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-color: #4d585f;
+}
+
+h1{
+    color: #f3d0e0;
+    text-align: center;
+}
+
+h2{
+    color: #b9b8d8;
+}
+
+p{
+    color: #457b9d;
+}
+
+.card{
+    border: 10px solid #c1add8;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
