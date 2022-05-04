@@ -1,43 +1,14 @@
-body{
-    background-color: #4d585f;
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*identificador*/
-#titulo_principal{
-    color: #f3d0e0;
+.titulo{
+    color: #f72585;
     text-align: center;
 }
 
-h2{
-    color: #b9b8d8;
-}
-
-p{
-    color: #457b9d;
-}
-
-
-/*clases*/
-.card{
-    border: 10px solid #c1add8;
-    background-color: #f1faee;
-    text-align: center;
-    margin: 10px;
-    padding-block: 10px;
-    border-radius: 10px;
-}
-
-.link{
-    background-color: #457b9d;
-    margin-block: 10px;
-    width: fit-content;
-    padding: 15px;
-    border-radius: 5px;
-    border: 5px solid white;
-}
-
-.link a{
-    color: antiquewhite;
-    text-decoration: none;
-    font-weight: bolder;
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid grey;
 }
