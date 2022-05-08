@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formularios en html</h1>
-    <form method="POST">
+    <form>
         <label for="nombre">Nombre</label><br/>
         <input 
             type="text" 
@@ -33,6 +33,52 @@
             name="password"
             required="true"
         /><br/>
+        <label for="email">Email:</label><br/>
+        <input 
+            type="email" 
+            id="email" 
+            placeholder="email"
+            name="email"
+            required="true"
+        /><br/>
+        <label for="edad">Edad:</label><br/>
+        <input 
+            type="number" 
+            id="edad" 
+            placeholder="edad"
+            name="edad"
+            required="true"
+        /><br/>
+        <label>Genero:</label><br/>
+        <input 
+            type="radio" 
+            id="femenino" 
+            name="genero"
+            value="femenino"
+        />
+        <label for="femenino">Femenino</label><br/>
+        <input 
+            type="radio" 
+            id="masculino" 
+            name="genero"
+            value="masculino"
+        />
+        <label for="masculino">Masculino</label><br/>
+        <label>Genero Musica</label><br/>
+        <input 
+            type="checkbox" 
+            id="clasica" 
+            name="musica"
+            value="clasica"
+        />
+        <label for="clasica">Clasica</label><br/>
+        <input 
+            type="checkbox" 
+            id="jazz" 
+            name="musica"
+            value="jazz"
+        />
+        <label for="jazz">Jazz</label><br/>
         <input type="submit" value="Enviar" />
     </form>
 </body>
