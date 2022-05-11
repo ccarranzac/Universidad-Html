@@ -8,9 +8,22 @@
 </head>
 <body>
     <h1>Formularios en html</h1>
-    <form>
+    <form 
+        action="mi_servidor"
+        target="_blank"
+        autocomplete="off"
+    >
         <fieldset>
             <legend>Datos persona</legend>
+            <label for="idPersona">Persona:</label><br/>
+            <input 
+                type="text" 
+                id="idPersona" 
+                name="idPersona"
+                value="100" 
+                disabled="true"
+                readonly/><br/>
+        <input type="hidden" id="sistema" name="sistema" value="SAP">
         <label for="nombre">Nombre</label><br/>
         <input 
             type="text" 
@@ -93,6 +106,7 @@
             hola
         </textarea><br/>
         <input type="submit" value="Enviar" />
+        <input type="reset" value="Restablecer" />
     </fieldset>
     </form>
 </body>
